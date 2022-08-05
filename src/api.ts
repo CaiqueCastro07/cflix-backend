@@ -7,6 +7,7 @@ import * as config from "../config/environments.json"
 import getFilms from "./controllers/getFilms"
 import dotenv from "dotenv"
 import moment from "moment"
+import updateFilms from "./controllers/updateFilms"
 dotenv.config()
 
 const api = express();
@@ -47,7 +48,7 @@ const startServer = () => {
   })
   
   api.get('/films', cors(), getFilms)  
-  //api.get('/refresh', cors(), getMovies)
+  api.get('/refresh', cors(), updateFilms)
 
   try {
     server = api.listen(apiPort, () => logger.info(`Aplicação iniciada com sucesso. Porta:${apiPort}`))
