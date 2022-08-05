@@ -229,3 +229,9 @@
 {"level":"info","message":"Process pid: 7051","timestamp":"05/08/2022 13:16:05"}
 {"level":"info","message":"Banco de dados conectado com sucesso.","timestamp":"05/08/2022 13:16:27"}
 {"level":"info","message":"Aplicação iniciada com sucesso. Porta:3003","timestamp":"05/08/2022 13:16:27"}
+{"level":"info","message":"Process pid: 8138","timestamp":"05/08/2022 13:54:06"}
+{"level":"info","message":"Banco de dados conectado com sucesso.","timestamp":"05/08/2022 13:54:28"}
+{"level":"info","message":"Aplicação iniciada com sucesso. Porta:3003","timestamp":"05/08/2022 13:54:28"}
+{"level":"info","message":"Process pid: 8182","timestamp":"05/08/2022 13:56:34"}
+{"level":"info","message":"Banco de dados conectado com sucesso.","timestamp":"05/08/2022 13:56:56"}
+{"level":"info","message":"Aplicação iniciada com sucesso. Porta:3003","timestamp":"05/08/2022 13:56:56"}

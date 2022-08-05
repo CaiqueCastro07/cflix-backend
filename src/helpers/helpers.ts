@@ -109,7 +109,6 @@ const objectsAreEqual = (first: any, second: any):boolean => {
 
 
 const updateFilmsCatalogue = async ():Promise<boolean> => {
-
     const studioApi = new StudioGhibliApi()
 
     if(!studioApi){
