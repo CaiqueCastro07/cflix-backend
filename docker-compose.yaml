@@ -1,0 +1,10 @@
+version: '3.0'
+
+services:
+  api:
+    build: .
+    container_name: cflix-backend
+    image: cflix-backend
+    command: npm start
+    ports:
+      - "3003:3003"
