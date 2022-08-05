@@ -80,8 +80,8 @@ const objectsAreEqual = (first: any, second: any):boolean => {
 
         if (!["string", "number", "boolean"].includes(type)) {
 
-            const firstVal = value
-            const secondVal = second?.[key]
+            const firstVal:any = value
+            const secondVal:any = second?.[key]
 
             if (type == "array") {
 

@@ -7,20 +7,50 @@ import { getFilmsInDatabase } from '../database/databaseServices'
 import logger from "../../config/winston"
 import { updateFilmsCatalogue } from '../Schedules/Schdedules'
 
+let paginator:any[] = []
+
 const getFilms = async (req: Request, res: Response): Promise<Response> => {
 
-    const { userid } = req?.headers || {};
+    let { page, limit }: any = req?.query || {};
 
-    updateFilmsCatalogue()
-//@ts-ignore
-    return true
-    if (!userid || typeof userid != 'string') return response(400, "Usuário não enviado.", true, {}, res);
+    if (!page || !limit) logger.error("Queries page ou limit não configuradas na request do frontend, verificar e corrigir")
 
-    const films = await getFilmsInDatabase()
+    page = +page
+    limit = +limit
 
-   // if (!tasks) return response(500, "Falha ao recuperar as tarefas. Contate o suporte", true, {}, res);
+    if (!page || page < 1) page = 1;
+    if (!limit || limit < 9) limit = 9;
 
-    //return response(200, "Tarefas enviadas com sucesso.", false, tasks, res);
+    const updatePaginator = async (tries: number = 0): Promise<boolean> => {
+
+        if (tries > 3 || tries < 0) {
+            logger.error("Erro ao recuperar os filmes no banco de dados, limite de tentativas atingido.")
+            return false
+        }
+
+        tries && delay(2000)
+
+        const getFilmsResult = await getFilmsInDatabase()
+        if (!Array.isArray(getFilmsResult)) return updatePaginator(tries + 1);
+
+        paginator = getFilmsResult
+        return true
+    }
+
+    !paginator?.length && await updatePaginator()
+
+    if (!paginator?.length || !Array.isArray(paginator)) return response(500, "Falha ao recuperar os filmes. Tente novamente mais tarde ou contate o suporte.", true, {}, res);
+
+    const maximum = paginator.length
+
+    if(page > maximum) page = maximum;
+    if(limit > maximum) limit = maximum;
+
+    const filmsToSend = paginator?.slice(page-1,limit)
+
+    const a = ""
+
+    return response(200, "Filmes encontrados.", false, filmsToSend, res);
 }
 
 export default getFilms

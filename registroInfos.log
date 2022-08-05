@@ -235,3 +235,51 @@
 {"level":"info","message":"Process pid: 8182","timestamp":"05/08/2022 13:56:34"}
 {"level":"info","message":"Banco de dados conectado com sucesso.","timestamp":"05/08/2022 13:56:56"}
 {"level":"info","message":"Aplicação iniciada com sucesso. Porta:3003","timestamp":"05/08/2022 13:56:56"}
+{"level":"info","message":"Process pid: 8502","timestamp":"05/08/2022 14:27:36"}
+{"level":"info","message":"Banco de dados conectado com sucesso.","timestamp":"05/08/2022 14:27:58"}
+{"level":"info","message":"Aplicação iniciada com sucesso. Porta:3003","timestamp":"05/08/2022 14:27:58"}
+{"level":"info","message":"Atualizando o catalogo de filmes a cada 10 minutos...","timestamp":"05/08/2022 14:30:00"}
+{"level":"info","message":"Atualizando o catalogo de filmes a cada 10 minutos...","timestamp":"05/08/2022 14:40:00"}
+{"level":"info","message":"Atualizando o catalogo de filmes a cada 10 minutos...","timestamp":"05/08/2022 14:50:00"}
+{"level":"info","message":"Atualizando o catalogo de filmes a cada 10 minutos...","timestamp":"05/08/2022 15:00:00"}
+{"level":"info","message":"Atualizando o catalogo de filmes a cada 10 minutos...","timestamp":"05/08/2022 15:10:00"}
+{"level":"info","message":"Atualizando o catalogo de filmes a cada 10 minutos...","timestamp":"05/08/2022 15:20:00"}
+{"level":"info","message":"Atualizando o catalogo de filmes a cada 10 minutos...","timestamp":"05/08/2022 15:30:00"}
+{"level":"info","message":"Process pid: 8922","timestamp":"05/08/2022 16:01:50"}
+{"level":"info","message":"Banco de dados conectado com sucesso.","timestamp":"05/08/2022 16:02:11"}
+{"level":"info","message":"Aplicação iniciada com sucesso. Porta:3003","timestamp":"05/08/2022 16:02:11"}
+{"level":"info","message":"Process pid: 8943","timestamp":"05/08/2022 16:03:03"}
+{"level":"info","message":"Banco de dados conectado com sucesso.","timestamp":"05/08/2022 16:03:24"}
+{"level":"info","message":"Aplicação iniciada com sucesso. Porta:3003","timestamp":"05/08/2022 16:03:24"}
+{"level":"info","message":"Process pid: 8970","timestamp":"05/08/2022 16:05:23"}
+{"level":"info","message":"Banco de dados conectado com sucesso.","timestamp":"05/08/2022 16:05:48"}
+{"level":"info","message":"Aplicação iniciada com sucesso. Porta:3003","timestamp":"05/08/2022 16:05:48"}
+{"level":"info","message":"Process pid: 8993","timestamp":"05/08/2022 16:07:07"}
+{"level":"info","message":"Banco de dados conectado com sucesso.","timestamp":"05/08/2022 16:07:29"}
+{"level":"info","message":"Aplicação iniciada com sucesso. Porta:3003","timestamp":"05/08/2022 16:07:29"}
+{"level":"info","message":"Process pid: 9047","timestamp":"05/08/2022 16:08:34"}
+{"level":"info","message":"Banco de dados conectado com sucesso.","timestamp":"05/08/2022 16:08:58"}
+{"level":"info","message":"Aplicação iniciada com sucesso. Porta:3003","timestamp":"05/08/2022 16:08:58"}
+{"level":"info","message":"Process pid: 9360","timestamp":"05/08/2022 16:42:28"}
+{"level":"info","message":"Banco de dados conectado com sucesso.","timestamp":"05/08/2022 16:42:49"}
+{"level":"info","message":"Aplicação iniciada com sucesso. Porta:3003","timestamp":"05/08/2022 16:42:49"}
+{"level":"info","message":"Process pid: 9381","timestamp":"05/08/2022 16:44:08"}
+{"level":"info","message":"Banco de dados conectado com sucesso.","timestamp":"05/08/2022 16:44:30"}
+{"level":"info","message":"Aplicação iniciada com sucesso. Porta:3003","timestamp":"05/08/2022 16:44:30"}
+{"level":"info","message":"Process pid: 9401","timestamp":"05/08/2022 16:45:30"}
+{"level":"info","message":"Banco de dados conectado com sucesso.","timestamp":"05/08/2022 16:45:52"}
+{"level":"info","message":"Aplicação iniciada com sucesso. Porta:3003","timestamp":"05/08/2022 16:45:52"}
+{"level":"info","message":"Process pid: 9478","timestamp":"05/08/2022 16:47:43"}
+{"level":"info","message":"Banco de dados conectado com sucesso.","timestamp":"05/08/2022 16:48:08"}
+{"level":"info","message":"Aplicação iniciada com sucesso. Porta:3003","timestamp":"05/08/2022 16:48:08"}
+{"level":"info","message":"Process pid: 9498","timestamp":"05/08/2022 16:49:08"}
+{"level":"info","message":"Banco de dados conectado com sucesso.","timestamp":"05/08/2022 16:49:30"}
+{"level":"info","message":"Aplicação iniciada com sucesso. Porta:3003","timestamp":"05/08/2022 16:49:30"}
+{"level":"info","message":"Atualizando o catalogo de filmes a cada 10 minutos...","timestamp":"05/08/2022 16:50:00"}
+{"level":"info","message":"Process pid: 9538","timestamp":"05/08/2022 16:53:43"}
+{"level":"info","message":"Banco de dados conectado com sucesso.","timestamp":"05/08/2022 16:54:05"}
+{"level":"info","message":"Aplicação iniciada com sucesso. Porta:3003","timestamp":"05/08/2022 16:54:05"}
+{"level":"info","message":"Process pid: 9565","timestamp":"05/08/2022 16:54:27"}
+{"level":"info","message":"Banco de dados conectado com sucesso.","timestamp":"05/08/2022 16:54:49"}
+{"level":"info","message":"Aplicação iniciada com sucesso. Porta:3003","timestamp":"05/08/2022 16:54:49"}
+{"level":"info","message":"Atualizando o catalogo de filmes a cada 10 minutos...","timestamp":"05/08/2022 17:00:00"}
