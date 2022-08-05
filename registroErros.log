@@ -6,3 +6,5 @@
 {"level":"error","message":"APIKEY não configurada não variável de ambiente, configure antes de continuar.","timestamp":"02/08/2022 08:08:16"}
 {"level":"error","message":"Password not sent {}","timestamp":"02/08/2022 08:12:40"}
 {"level":"error","message":"API1_URL não configurada não variável de ambiente, configure antes de continuar.","timestamp":"04/08/2022 08:07:46"}
+{"level":"error","message":"Mongo URL não localizada na variável de ambiente, por favor configure antes de iniciar.","timestamp":"05/08/2022 10:29:34"}
+{"level":"error","message":"APIKEY não configurada não variável de ambiente, configure antes de continuar.","timestamp":"05/08/2022 10:29:34"}

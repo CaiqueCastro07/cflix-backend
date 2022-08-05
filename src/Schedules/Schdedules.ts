@@ -1,7 +1,7 @@
 import logger from "../../config/winston";
 import { CronJob } from "cron"
 import StudioGhibliApi from "../ExternalApis/StudioGhibliApi";
-import { getFilmsInDatabase } from "../database/databaseServices";
+import { deleteFilmInDatabase, getFilmsInDatabase } from "../database/databaseServices";
 import { createFilmInDatabase, updateFilmInDatabase } from "../database/databaseServices";
 import { delay, objectsAreEqual } from "../helpers/helpers";
 
@@ -56,30 +56,16 @@ const updateFilmsCatalogue = async () => {
 
     main: for (let i = 0; i < sourceFilmsArr?.length || i < databaseFilmsArr?.length; i++) {
         const currentSrc = sourceFilmsArr?.[i]
-        if (currentSrc) {
-            const srcExistsInDb = dbFilmsObj.get(currentSrc?.id)
-            if (srcExistsInDb) {
-                const isEqual = objectsAreEqual(currentSrc, srcExistsInDb)
-                if (!isEqual) {
-                    filmsToModify.push(currentSrc)
-                    continue
-                };
-                continue
-            }
-            filmsToAdd.push(currentSrc)
-            continue
-        }
         const currentDb = databaseFilmsArr?.[i]
+
+        const srcExistsInDb = dbFilmsObj.get(currentSrc?.id)
         const dbExistsInSrc = srcFilmsObj.get(currentDb?.id)
-        if (currentDb && dbExistsInSrc) {
-            const isEqual = objectsAreEqual(dbExistsInSrc, currentDb)
-            if (!isEqual) {
-                filmsToModify.push(dbExistsInSrc)
-                continue
-            };
-            continue
-        }
-        filmsToDelete.push(currentDb)
+
+        !srcExistsInDb && currentSrc && filmsToAdd.push(currentSrc);
+        !dbExistsInSrc && currentDb && filmsToDelete.push(currentDb);
+
+        currentSrc && srcExistsInDb && !objectsAreEqual(currentSrc, srcExistsInDb) && filmsToModify.push(currentSrc)
+
     }
 
     const errors = []
@@ -87,7 +73,7 @@ const updateFilmsCatalogue = async () => {
     for (let i = 0; i < filmsToAdd?.length; i++) {
 
         i && delay(100)
-        
+
         const filmAdded = await createFilmInDatabase(filmsToAdd?.[i])
 
         if (!filmAdded) {
@@ -99,9 +85,27 @@ const updateFilmsCatalogue = async () => {
 
     for (let i = 0; i < filmsToModify?.length; i++) {
 
+        i && delay(100)
+
+        const filmModified = await updateFilmInDatabase(filmsToModify?.[i])
+
+        if (!filmModified) {
+            errors.push({ type: "Modifying film", entity: filmsToModify?.[i] })
+            continue
+        }
+
     }
 
     for (let i = 0; i < filmsToDelete?.length; i++) {
+
+        i && delay(100)
+
+        const filmDeleted = await deleteFilmInDatabase(filmsToDelete?.[i])
+
+        if (!filmDeleted) {
+            errors.push({ type: "Deleting film", entity: filmsToDelete?.[i] })
+            continue
+        }
 
     }
 

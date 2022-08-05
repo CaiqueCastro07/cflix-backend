@@ -140,3 +140,92 @@
 {"level":"info","message":"Process pid: 54520","timestamp":"05/08/2022 10:05:59"}
 {"level":"info","message":"Banco de dados conectado com sucesso.","timestamp":"05/08/2022 10:05:59"}
 {"level":"info","message":"Aplicação iniciada com sucesso. Porta:3003","timestamp":"05/08/2022 10:05:59"}
+{"level":"info","message":"Process pid: 5594","timestamp":"05/08/2022 10:29:34"}
+{"level":"info","message":"Banco de dados conectado com sucesso.","timestamp":"05/08/2022 10:29:34"}
+{"level":"info","message":"Process pid: 5835","timestamp":"05/08/2022 10:39:24"}
+{"level":"info","message":"Banco de dados conectado com sucesso.","timestamp":"05/08/2022 10:39:49"}
+{"level":"info","message":"Aplicação iniciada com sucesso. Porta:3003","timestamp":"05/08/2022 10:39:49"}
+{"level":"info","message":"Process pid: 6034","timestamp":"05/08/2022 11:14:15"}
+{"level":"info","message":"Banco de dados conectado com sucesso.","timestamp":"05/08/2022 11:14:37"}
+{"level":"info","message":"Aplicação iniciada com sucesso. Porta:3003","timestamp":"05/08/2022 11:14:37"}
+{"level":"info","message":"Process pid: 6065","timestamp":"05/08/2022 11:17:39"}
+{"level":"info","message":"Banco de dados conectado com sucesso.","timestamp":"05/08/2022 11:18:04"}
+{"level":"info","message":"Aplicação iniciada com sucesso. Porta:3003","timestamp":"05/08/2022 11:18:04"}
+{"level":"info","message":"Process pid: 6101","timestamp":"05/08/2022 11:21:27"}
+{"level":"info","message":"Banco de dados conectado com sucesso.","timestamp":"05/08/2022 11:21:48"}
+{"level":"info","message":"Aplicação iniciada com sucesso. Porta:3003","timestamp":"05/08/2022 11:21:48"}
+{"level":"info","message":"Process pid: 6138","timestamp":"05/08/2022 11:25:33"}
+{"level":"info","message":"Banco de dados conectado com sucesso.","timestamp":"05/08/2022 11:25:58"}
+{"level":"info","message":"Aplicação iniciada com sucesso. Porta:3003","timestamp":"05/08/2022 11:25:58"}
+{"level":"info","message":"Process pid: 6194","timestamp":"05/08/2022 11:30:48"}
+{"level":"info","message":"Banco de dados conectado com sucesso.","timestamp":"05/08/2022 11:31:12"}
+{"level":"info","message":"Aplicação iniciada com sucesso. Porta:3003","timestamp":"05/08/2022 11:31:12"}
+{"level":"info","message":"Process pid: 6258","timestamp":"05/08/2022 11:35:15"}
+{"level":"info","message":"Banco de dados conectado com sucesso.","timestamp":"05/08/2022 11:35:36"}
+{"level":"info","message":"Aplicação iniciada com sucesso. Porta:3003","timestamp":"05/08/2022 11:35:36"}
+{"level":"info","message":"Process pid: 6359","timestamp":"05/08/2022 11:41:07"}
+{"level":"info","message":"Banco de dados conectado com sucesso.","timestamp":"05/08/2022 11:41:33"}
+{"level":"info","message":"Aplicação iniciada com sucesso. Porta:3003","timestamp":"05/08/2022 11:41:33"}
+{"level":"info","message":"Process pid: 6418","timestamp":"05/08/2022 11:46:58"}
+{"level":"info","message":"Banco de dados conectado com sucesso.","timestamp":"05/08/2022 11:47:23"}
+{"level":"info","message":"Aplicação iniciada com sucesso. Porta:3003","timestamp":"05/08/2022 11:47:23"}
+{"level":"info","message":"Process pid: 6476","timestamp":"05/08/2022 11:50:42"}
+{"level":"info","message":"Banco de dados conectado com sucesso.","timestamp":"05/08/2022 11:51:04"}
+{"level":"info","message":"Aplicação iniciada com sucesso. Porta:3003","timestamp":"05/08/2022 11:51:04"}
+{"level":"info","message":"Process pid: 6489","timestamp":"05/08/2022 11:52:11"}
+{"level":"info","message":"Banco de dados conectado com sucesso.","timestamp":"05/08/2022 11:52:36"}
+{"level":"info","message":"Aplicação iniciada com sucesso. Porta:3003","timestamp":"05/08/2022 11:52:36"}
+{"level":"info","message":"Process pid: 6530","timestamp":"05/08/2022 11:55:05"}
+{"level":"info","message":"Banco de dados conectado com sucesso.","timestamp":"05/08/2022 11:55:26"}
+{"level":"info","message":"Aplicação iniciada com sucesso. Porta:3003","timestamp":"05/08/2022 11:55:26"}
+{"level":"info","message":"Process pid: 6567","timestamp":"05/08/2022 12:05:20"}
+{"level":"info","message":"Banco de dados conectado com sucesso.","timestamp":"05/08/2022 12:05:44"}
+{"level":"info","message":"Aplicação iniciada com sucesso. Porta:3003","timestamp":"05/08/2022 12:05:44"}
+{"level":"info","message":"Process pid: 6604","timestamp":"05/08/2022 12:18:10"}
+{"level":"info","message":"Banco de dados conectado com sucesso.","timestamp":"05/08/2022 12:18:31"}
+{"level":"info","message":"Aplicação iniciada com sucesso. Porta:3003","timestamp":"05/08/2022 12:18:31"}
+{"level":"info","message":"Process pid: 6636","timestamp":"05/08/2022 12:29:37"}
+{"level":"info","message":"Banco de dados conectado com sucesso.","timestamp":"05/08/2022 12:30:02"}
+{"level":"info","message":"Aplicação iniciada com sucesso. Porta:3003","timestamp":"05/08/2022 12:30:02"}
+{"level":"info","message":"Process pid: 6662","timestamp":"05/08/2022 12:32:07"}
+{"level":"info","message":"Banco de dados conectado com sucesso.","timestamp":"05/08/2022 12:32:29"}
+{"level":"info","message":"Aplicação iniciada com sucesso. Porta:3003","timestamp":"05/08/2022 12:32:29"}
+{"level":"info","message":"Process pid: 6681","timestamp":"05/08/2022 12:33:41"}
+{"level":"info","message":"Banco de dados conectado com sucesso.","timestamp":"05/08/2022 12:34:05"}
+{"level":"info","message":"Aplicação iniciada com sucesso. Porta:3003","timestamp":"05/08/2022 12:34:05"}
+{"level":"info","message":"Process pid: 6710","timestamp":"05/08/2022 12:35:25"}
+{"level":"info","message":"Banco de dados conectado com sucesso.","timestamp":"05/08/2022 12:35:46"}
+{"level":"info","message":"Aplicação iniciada com sucesso. Porta:3003","timestamp":"05/08/2022 12:35:46"}
+{"level":"info","message":"Process pid: 6738","timestamp":"05/08/2022 12:36:34"}
+{"level":"info","message":"Banco de dados conectado com sucesso.","timestamp":"05/08/2022 12:36:56"}
+{"level":"info","message":"Aplicação iniciada com sucesso. Porta:3003","timestamp":"05/08/2022 12:36:56"}
+{"level":"info","message":"Process pid: 6778","timestamp":"05/08/2022 12:43:02"}
+{"level":"info","message":"Banco de dados conectado com sucesso.","timestamp":"05/08/2022 12:43:23"}
+{"level":"info","message":"Aplicação iniciada com sucesso. Porta:3003","timestamp":"05/08/2022 12:43:23"}
+{"level":"info","message":"Process pid: 6805","timestamp":"05/08/2022 12:44:31"}
+{"level":"info","message":"Banco de dados conectado com sucesso.","timestamp":"05/08/2022 12:44:52"}
+{"level":"info","message":"Aplicação iniciada com sucesso. Porta:3003","timestamp":"05/08/2022 12:44:52"}
+{"level":"info","message":"Process pid: 6835","timestamp":"05/08/2022 12:51:56"}
+{"level":"info","message":"Banco de dados conectado com sucesso.","timestamp":"05/08/2022 12:52:21"}
+{"level":"info","message":"Aplicação iniciada com sucesso. Porta:3003","timestamp":"05/08/2022 12:52:21"}
+{"level":"info","message":"Process pid: 6863","timestamp":"05/08/2022 12:53:25"}
+{"level":"info","message":"Banco de dados conectado com sucesso.","timestamp":"05/08/2022 12:53:46"}
+{"level":"info","message":"Aplicação iniciada com sucesso. Porta:3003","timestamp":"05/08/2022 12:53:46"}
+{"level":"info","message":"Process pid: 6890","timestamp":"05/08/2022 12:55:22"}
+{"level":"info","message":"Banco de dados conectado com sucesso.","timestamp":"05/08/2022 12:55:44"}
+{"level":"info","message":"Aplicação iniciada com sucesso. Porta:3003","timestamp":"05/08/2022 12:55:44"}
+{"level":"info","message":"Process pid: 6935","timestamp":"05/08/2022 13:09:10"}
+{"level":"info","message":"Banco de dados conectado com sucesso.","timestamp":"05/08/2022 13:09:31"}
+{"level":"info","message":"Aplicação iniciada com sucesso. Porta:3003","timestamp":"05/08/2022 13:09:31"}
+{"level":"info","message":"Process pid: 6968","timestamp":"05/08/2022 13:12:20"}
+{"level":"info","message":"Banco de dados conectado com sucesso.","timestamp":"05/08/2022 13:12:44"}
+{"level":"info","message":"Aplicação iniciada com sucesso. Porta:3003","timestamp":"05/08/2022 13:12:44"}
+{"level":"info","message":"Process pid: 6998","timestamp":"05/08/2022 13:13:56"}
+{"level":"info","message":"Banco de dados conectado com sucesso.","timestamp":"05/08/2022 13:14:18"}
+{"level":"info","message":"Aplicação iniciada com sucesso. Porta:3003","timestamp":"05/08/2022 13:14:18"}
+{"level":"info","message":"Process pid: 7025","timestamp":"05/08/2022 13:15:11"}
+{"level":"info","message":"Banco de dados conectado com sucesso.","timestamp":"05/08/2022 13:15:32"}
+{"level":"info","message":"Aplicação iniciada com sucesso. Porta:3003","timestamp":"05/08/2022 13:15:32"}
+{"level":"info","message":"Process pid: 7051","timestamp":"05/08/2022 13:16:05"}
+{"level":"info","message":"Banco de dados conectado com sucesso.","timestamp":"05/08/2022 13:16:27"}
+{"level":"info","message":"Aplicação iniciada com sucesso. Porta:3003","timestamp":"05/08/2022 13:16:27"}
