@@ -97,7 +97,7 @@ const objectsAreEqual = (first: any, second: any):boolean => {
             return !isEqual(firstVal, secondVal)
         }
 
-        const match = second?.[key] === value
+        const match:boolean = second?.[key] === value
 
         return !match
     
@@ -109,6 +109,7 @@ const objectsAreEqual = (first: any, second: any):boolean => {
 
 
 const updateFilmsCatalogue = async ():Promise<boolean> => {
+    
     const studioApi = new StudioGhibliApi()
 
     if(!studioApi){

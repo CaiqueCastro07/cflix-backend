@@ -18,7 +18,7 @@ const getFilms = async (req: Request, res: Response): Promise<Response> => {
     page = +page
     limit = +limit
 
-    if (!page || page < 1) page = 1;
+    if (!page || page < 1) page = 0;
     if (!limit || limit < 9) limit = 9;
 
     const updatePaginator = async (tries: number = 0): Promise<boolean> => {
@@ -46,9 +46,7 @@ const getFilms = async (req: Request, res: Response): Promise<Response> => {
     if(page > maximum) page = maximum;
     if(limit > maximum) limit = maximum;
 
-    const filmsToSend = paginator?.slice(page-1,limit)
-
-    const a = ""
+    const filmsToSend = paginator?.slice(page,limit)
 
     return response(200, "Filmes encontrados.", false, filmsToSend, res);
 }
