@@ -47,8 +47,8 @@ const startServer = () => {
     return res.status(200).json({ status: 200, online: true, integration: "CFlix", time: date || Date.now() })
   })
   
-  api.get('/films', cors(), getFilms)  
-  api.get('/refresh', cors(), updateFilms)
+  api.get('/cflix/films', cors(), getFilms)  
+  api.get('/cflix/refresh', cors(), updateFilms)
 
   try {
     server = api.listen(apiPort, () => logger.info(`Aplicação iniciada com sucesso. Porta:${apiPort}`))
