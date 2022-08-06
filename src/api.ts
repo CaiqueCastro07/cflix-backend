@@ -42,7 +42,7 @@ const startServer = () => {
 
   })
 
-  api.get("/", (req, res) => {
+  api.get("/cflix/", (req, res) => {
     const date = moment(new Date()).format("DD/MM/YYYY - hh:mm:ss")
     return res.status(200).json({ status: 200, online: true, integration: "CFlix", time: date || Date.now() })
   })
