@@ -1,8 +1,8 @@
 import logger from '../../config/winston';
-import { Task } from '../dto/objects/ObjectTypes';
 import { filmsRepository } from './repositories';
+import { Film } from '../dto/objects/ObjectTypes';
 
-const getFilmsInDatabase = async (): Promise<any[] | false> => {
+const getFilmsInDatabase = async (): Promise<Film[] | false> => {
 
   try {
     const dbResult = await filmsRepository.find()
@@ -15,7 +15,7 @@ const getFilmsInDatabase = async (): Promise<any[] | false> => {
   }
 }
 
-const updateFilmInDatabase = async (film: any): Promise<boolean> => {
+const updateFilmInDatabase = async (film: Film): Promise<boolean> => {
 
   try {
 
@@ -29,7 +29,7 @@ const updateFilmInDatabase = async (film: any): Promise<boolean> => {
   }
 }
 
-const createFilmInDatabase = async (newFilm: any): Promise<boolean> => {
+const createFilmInDatabase = async (newFilm: Film): Promise<boolean> => {
 
   try {
 
@@ -43,7 +43,7 @@ const createFilmInDatabase = async (newFilm: any): Promise<boolean> => {
   }
 }
 
-const deleteFilmInDatabase = async (newFilm: any) => {
+const deleteFilmInDatabase = async (newFilm: Film) => {
 
   try {
 

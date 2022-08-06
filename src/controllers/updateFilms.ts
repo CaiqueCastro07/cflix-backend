@@ -25,7 +25,7 @@ const updateFilms = async (req: Request, res: Response): Promise<Response> => {
 const resetInterval = new CronJob(
     '*/14 * * * *',
         function(){
-            logger.info("Pertimindo um refresh manual do catalogo de filmes do banco de dados ")
+            logger.info("Permitindo um refresh manual do catalogo de filmes do banco de dados ")
             interval = false
         }
     ,

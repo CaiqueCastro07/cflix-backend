@@ -333,3 +333,7 @@
 {"level":"info","message":"Process pid: 7779","timestamp":"06/08/2022 11:33:45"}
 {"level":"info","message":"Banco de dados conectado com sucesso.","timestamp":"06/08/2022 11:33:46"}
 {"level":"info","message":"Aplicação iniciada com sucesso. Porta:3003","timestamp":"06/08/2022 11:33:46"}
+{"level":"info","message":"Process pid: 6852","timestamp":"06/08/2022 19:28:04"}
+{"level":"info","message":"Banco de dados conectado com sucesso.","timestamp":"06/08/2022 19:28:04"}
+{"level":"info","message":"Aplicação iniciada com sucesso. Porta:3003","timestamp":"06/08/2022 19:28:04"}
+{"level":"info","message":"Atualizando o catalogo de filmes no banco de dados a cada 10 minutos...","timestamp":"06/08/2022 19:30:00"}

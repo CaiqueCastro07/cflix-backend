@@ -2,13 +2,13 @@ import { Request, Response } from 'express'
 import { response } from '../helpers/helpers'
 //@ts-ignore
 import { delay } from '../helpers/helpers'
-import { } from '../dto/objects/ObjectTypes'
+import { Film } from '../dto/objects/ObjectTypes'
 import { getFilmsInDatabase } from '../database/databaseServices'
 import logger from "../../config/winston"
 import { updateFilmsCatalogue } from '../Schedules/Schdedules'
 import { CronJob } from 'cron'
 
-let paginator: any[] = []
+let paginator: Film[] = []
 
 let updating = false
 
