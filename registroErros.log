@@ -14,3 +14,5 @@
 {"level":"error","message":"Queries page ou limit não configuradas na request do frontend, verificar e corrigir","timestamp":"05/08/2022 16:50:37"}
 {"level":"error","message":"Queries page ou limit não configuradas na request do frontend, verificar e corrigir","timestamp":"05/08/2022 16:55:13"}
 {"level":"error","message":"Queries page ou limit não configuradas na request do frontend, verificar e corrigir","timestamp":"05/08/2022 17:33:29"}
+{"level":"error","message":"##getNewFilmsApi() - Error getaddrinfo ENOTFOUND ghibliapi.herokuapp.com","timestamp":"06/08/2022 11:32:34"}
+{"level":"error","message":"Erro no agendamento de atualização dos filmes.","timestamp":"06/08/2022 11:32:34"}
