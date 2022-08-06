@@ -324,3 +324,8 @@
 {"level":"info","message":"Atualizando o catalogo de filmes a cada 10 minutos...","timestamp":"06/08/2022 10:56:01"}
 {"level":"info","message":"Atualizando o catalogo de filmes a cada 10 minutos...","timestamp":"06/08/2022 11:00:00"}
 {"level":"info","message":"Atualizando o catalogo de filmes a cada 10 minutos...","timestamp":"06/08/2022 11:08:00"}
+{"level":"info","message":"Atualizando o catalogo de filmes a cada 10 minutos...","timestamp":"06/08/2022 11:16:00"}
+{"level":"info","message":"Process pid: 7546","timestamp":"06/08/2022 11:23:18"}
+{"level":"info","message":"Banco de dados conectado com sucesso.","timestamp":"06/08/2022 11:23:19"}
+{"level":"info","message":"Aplicação iniciada com sucesso. Porta:3003","timestamp":"06/08/2022 11:23:19"}
+{"level":"info","message":"Resetando o paginator.","timestamp":"06/08/2022 11:24:00"}

@@ -3,7 +3,7 @@ import { CronJob } from "cron"
 import { delay,updateFilmsCatalogue } from "../helpers/helpers";
 
 const updateFilmsSchedule = new CronJob(
-    '*/8 * * * *',
+    '*/10 * * * *',
         function(){
             logger.info("Atualizando o catalogo de filmes a cada 10 minutos...")
             updateFilmsCatalogue()
